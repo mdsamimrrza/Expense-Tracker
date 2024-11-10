@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 350px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Heading Styles */
+h1,
+h2 {
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Product List Styles */
+#product-list {
+    margin-bottom: 20px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+/* Add to Cart Button Styles */
+button[data-id] {
+    padding: 8px 12px;
+    background-color: #8e44ad;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[data-id]:hover {
+    background-color: #a569bd;
+}
+
+/* Empty Cart Message */
+#empty-cart {
+    text-align: center;
+    color: #ff6666;
+    margin-top: 10px;
+}
+
+/* Total Section */
+#cart-total {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#total-price {
+    font-weight: bold;
+}
+
+#checkout-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #8e44ad;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#checkout-btn:hover {
+    background-color: #a569bd;
+}
+
+/* Hidden Class */
+.hidden {
+    display: none;
+}
+/* Styling for the Remove button in the cart */
+.cart-item button {
+    background-color: #ff4d4d;
+    /* Red background for remove button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+/* Hover effect for Remove button */
+.cart-item button:hover {
+    background-color: #cc0000;
+    /* Darker red on hover */
+}
